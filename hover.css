@@ -8,19 +8,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 190vh;
+    min-height: 100vh;
     background: #222;
 }
 
 .btn{
     position: relative;
     display: inline-flex;
-    padding: 10px 30px;
+    padding: 50px 70px;
     background: #363636;
     color: #fff;
     text-decoration: none;
     letter-spacing: 1px;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .btn span{
@@ -31,8 +32,9 @@ body{
 .btn::before{
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%,-50%);
     width: 0px;
     height: 0px;
     border-radius: 50%;
