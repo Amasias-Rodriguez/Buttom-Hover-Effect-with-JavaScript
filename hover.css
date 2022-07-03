@@ -9,14 +9,14 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #222;
+    background: #212;
 }
 
 .btn{
     position: relative;
     display: inline-flex;
     padding: 50px 70px;
-    background: #363636;
+    background: #363436;
     color: #fff;
     text-decoration: none;
     letter-spacing: 1px;
